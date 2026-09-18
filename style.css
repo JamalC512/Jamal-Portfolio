@@ -194,10 +194,80 @@ nav a:hover {
     background-color: white;
 }
 
-/* Makes the projects look good on smaller screens */
+/* Mobile Responsive Design */
 @media (max-width: 900px) {
+
+    /* Navigation */
+    nav {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Home */
+    #home {
+        min-height: 80vh;
+        padding: 60px 7%;
+        text-align: center;
+        align-items: center;
+    }
+
+    #home h1 {
+        font-size: 38px;
+    }
+
+    #home h2 {
+        font-size: 22px;
+    }
+
+    #home p {
+        font-size: 16px;
+    }
+
+    /* Sections */
+    #about,
+    #projects,
+    #resume,
+    #contact {
+        padding: 60px 7%;
+    }
+
+    #about h2,
+    #projects h2,
+    #resume h2,
+    #contact h2 {
+        font-size: 32px;
+    }
+
+    /* Projects */
     .project-container {
         grid-template-columns: 1fr;
+    }
+
+    /* Resume */
+    .resume-buttons {
+        flex-direction: column;
+    }
+
+    .resume-button {
+        text-align: center;
+    }
+
+    /* QR Code */
+    .portfolio-qr {
+        max-width: 100%;
+    }
+
+    /* Chatbot */
+    #chatbot-box {
+        width: calc(100% - 30px);
+        right: 15px;
+        bottom: 80px;
     }
 }
 /* Resume Section */
