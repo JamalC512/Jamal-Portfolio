@@ -427,3 +427,35 @@ nav a:hover {
 #send-button:hover {
     background-color: white;
 }
+/* Portfolio QR Code */
+.portfolio-qr {
+    margin-top: 40px;
+    padding: 25px;
+    max-width: 400px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.portfolio-qr h3 {
+    color: #38bdf8;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.portfolio-qr p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.portfolio-qr img {
+    width: 180px;
+    height: 180px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
