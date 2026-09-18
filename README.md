@@ -55,4 +55,6 @@ My goal is to build a career in cloud engineering or cloud systems while continu
 
 ## Website
 
-The live portfolio website link will be added here after deployment.
+View my live portfolio here:
+
+https://jamalc512.github.io/Jamal-Portfolio/
